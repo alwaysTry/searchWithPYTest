@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SearchResultTabCon.h
 //  searchText
 //
 //  Created by yanzhg on 14-9-4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SearchResultTabCon : UITableViewController
+@property (nonatomic, copy) NSString *searchText;
 @end
